@@ -9,6 +9,7 @@
     ],
     "scripts": {
         "compile": "npx hardhat compile",
+        "fetch": "npx hardhat run ./scripts/main.js",
         "test": "npx hardhat test"
     },
     "dependencies": {

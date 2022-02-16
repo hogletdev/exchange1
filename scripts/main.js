@@ -1,9 +1,7 @@
 const utils = require('./utils')
 
-let config = utils.getConfig()
-
 utils
-    .mainfunc(config.infura, config.tx.link)
+    .mainfunc()
     .then(() => {
         console.log('\n fetching data successfully ✓')
         process.exit(0)

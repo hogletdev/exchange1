@@ -118,7 +118,7 @@ async function formOrderByTxHash() {
 
     abiDecoder.addABI(abijson.abi)
 
-    const decodeData = abiDecoder.decodeMethod(config['tx']['input'])
+    const decodeData = abiDecoder.decodeMethod(config.tx.detail.input)
 
     // console.log('decodeData : ', decodeData)
     console.log('json : ', JSON.stringify(decodeData))
