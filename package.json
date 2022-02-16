@@ -1,0 +1,45 @@
+{
+    "name": "opensea_replay",
+    "version": "1.0",
+    "description": "replay opensea's tx in another public chain",
+    "keywords": [
+        "opensea",
+        "replay",
+        "ethereum"
+    ],
+    "scripts": {
+        "compile": "npx hardhat compile",
+        "test": "npx hardhat test"
+    },
+    "dependencies": {
+        "@nomiclabs/hardhat-ethers": "2.0.5",
+        "@nomiclabs/hardhat-waffle": "2.0.2",
+        "abi-decoder": "2.4.0",
+        "async-limiter": "1.0.1",
+        "chai": "4.3.6",
+        "command-exists": "1.2.9",
+        "commander": "3.0.2",
+        "ethereum-waffle": "3.4.0",
+        "hardhat": "2.8.4",
+        "is-plain-obj": "1.1.0",
+        "is-retry-allowed": "1.2.0",
+        "is-stream": "1.1.0",
+        "isurl": "1.0.0",
+        "openzeppelin-solidity": "1.10.0",
+        "p-timeout": "1.2.1",
+        "string-hex": "1.0.0",
+        "ultron": "1.1.1",
+        "universalify": "0.1.2",
+        "url-to-options": "1.0.1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/hogletdev/exchange1.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/hogletdev/exchange1/issues"
+    },
+    "homepage": "https://github.com/hogletdev/exchange1#readme"
+}
